@@ -14,7 +14,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Certificate from "../components/Certificate";
 import { Code, Award, Boxes } from "lucide-react";
-
+import tictactoeimg from "../asset/ticktacktoe.png";
 
 // Separate ShowMore/ShowLess button component
 const ToggleButton = ({ onClick, isShowingMore }) => (
@@ -141,7 +141,7 @@ export default function FullWidthTabs() {
   const loadProjects = () => {
     // Assuming project images are in /public/projects/ folder
     const projectList = [
-      { id: 1, name: "Tic Tac Toe",title:"Tic Tac Toe Game", description: "Tic Tac Toe Game", img: "/src/asset/ticktacktoe.png",link: "https://tick-tack-toe-nu.vercel.app/",Github: "https://github.com/arjunsabu300/Tick-Tack-Toe.git"},
+      { id: 1, name: "Tic Tac Toe",title:"Tic Tac Toe Game", description: "Tic Tac Toe Game", img: tictactoeimg,link: "https://tick-tack-toe-nu.vercel.app/",Github: "https://github.com/arjunsabu300/Tick-Tack-Toe.git"},
       { id: 2, name: "Cab Booking System",title:"Cab Booking System", description: "Cab Booking System model", img: "/src/asset/cabbooking.jpeg",link: "https://cab-booking-system-7c5e.onrender.com/",Github: "https://github.com/arjunsabu300/Cab-Booking-System"},
       
       // { id: 3, name: "Project 3", description: "Description 3", img: "/projects/proj3.jpg" },
