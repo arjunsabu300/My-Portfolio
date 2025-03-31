@@ -15,6 +15,15 @@ import "aos/dist/aos.css";
 import Certificate from "../components/Certificate";
 import { Code, Award, Boxes } from "lucide-react";
 import tictactoeimg from "../asset/ticktacktoe.png";
+import cabimg from "../asset/cabbooking.jpeg";
+import flipkartc from "../asset/flipkartcertificate.jpg";
+import ieee from "../asset/ieee.png";
+import ev from "../asset/ev.png";
+import cbs from "../asset/cbs.png";
+import vr from "../asset/vr.png";
+import yip from "../asset/yip2.png";
+import wordpress from "../asset/wordpress.png";
+import internship1 from "../asset/Internship1.pdf";
 
 // Separate ShowMore/ShowLess button component
 const ToggleButton = ({ onClick, isShowingMore }) => (
@@ -142,7 +151,7 @@ export default function FullWidthTabs() {
     // Assuming project images are in /public/projects/ folder
     const projectList = [
       { id: 1, name: "Tic Tac Toe",title:"Tic Tac Toe Game", description: "Tic Tac Toe Game", img: tictactoeimg,link: "https://tick-tack-toe-nu.vercel.app/",Github: "https://github.com/arjunsabu300/Tick-Tack-Toe.git"},
-      { id: 2, name: "Cab Booking System",title:"Cab Booking System", description: "Cab Booking System model", img: "/src/asset/cabbooking.jpeg",link: "https://cab-booking-system-7c5e.onrender.com/",Github: "https://github.com/arjunsabu300/Cab-Booking-System"},
+      { id: 2, name: "Cab Booking System",title:"Cab Booking System", description: "Cab Booking System model", img: cabimg,link: "https://cab-booking-system-7c5e.onrender.com/",Github: "https://github.com/arjunsabu300/Cab-Booking-System"},
       
       // { id: 3, name: "Project 3", description: "Description 3", img: "/projects/proj3.jpg" },
       // Add more projects here
@@ -154,14 +163,14 @@ export default function FullWidthTabs() {
   const loadCertificates = () => {
     // Assuming certificates are in /public/certificates/ folder
     const certificateList = [
-      { name: "Certificate 1", img: "/src/asset/flipkartcertificate.jpg" },
-      { name: "Certificate 2", img: "/src/asset/ieee.png" },
-      { name: "Certificate 3", img: "/src/asset/ev.png" },
-      { name: "Certificate 4", img: "/src/asset/cbs.png" },
-      { name: "Certificate 5", img: "/src/asset/vr.png" },
-      { name: "Certificate 6", img: "/src/asset/yip2.png" },
-      { name: "Certificate 7", img: "/src/asset/wordpress.png" },
-      { name: "Certificate 8", img: "/src/asset/Internship1.pdf" }
+      { name: "Certificate 1", img: flipkartc },
+      { name: "Certificate 2", img: ieee },
+      { name: "Certificate 3", img: ev },
+      { name: "Certificate 4", img: cbs },
+      { name: "Certificate 5", img: vr },
+      { name: "Certificate 6", img: yip },
+      { name: "Certificate 7", img: wordpress },
+      { name: "Certificate 8", img: internship1 }
 
 
       // Add more certificates here
