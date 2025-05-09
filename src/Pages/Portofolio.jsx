@@ -24,6 +24,7 @@ import vr from "../asset/vr.png";
 import yip from "../asset/yip2.png";
 import wordpress from "../asset/wordpress.png";
 import internship1 from "../asset/Internship1.pdf";
+import Housecost from "../asset/predictcosthouse.jpeg";
 
 // Separate ShowMore/ShowLess button component
 const ToggleButton = ({ onClick, isShowingMore }) => (
@@ -152,7 +153,7 @@ export default function FullWidthTabs() {
     const projectList = [
       { id: 1, name: "Tic Tac Toe",title:"Tic Tac Toe Game", description: "Tic Tac Toe Game", img: tictactoeimg,link: "https://tick-tack-toe-nu.vercel.app/",Github: "https://github.com/arjunsabu300/Tick-Tack-Toe.git"},
       { id: 2, name: "Cab Booking System",title:"Cab Booking System", description: "Cab Booking System model", img: cabimg,link: "https://cab-booking-system-7c5e.onrender.com/",Github: "https://github.com/arjunsabu300/Cab-Booking-System"},
-      
+      { id: 2, name: "House Cost Predictor",title:"House Cost Predictor", description: "House cost prediction using ML", img: Housecost,link: "https://house-price-predictor-rho.vercel.app/",Github: "https://github.com/arjunsabu300/House-Price-Predictor"},
       // { id: 3, name: "Project 3", description: "Description 3", img: "/projects/proj3.jpg" },
       // Add more projects here
     ];
