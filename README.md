@@ -1,113 +1,53 @@
-# Portfolio V5  
-Hello everyone!  
-Let me introduce myself, I’m Eki Zulfar Rachman. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
+# 🚀 Arjun Sabu — Portfolio Website 🌐
 
-**Tech Stack used:**  
-- ReactJS  
-- Tailwind CSS  
-- AOS  
-- Firebase  
-- Framer Motion  
-- Lucide  
-- Material UI  
-- SweetAlert2  
+Welcome to the official codebase of **[arjunsabu.com](https://arjunsabu.com)** — my personal space on the web!  
+Crafted with ❤️ using modern web tech to showcase my projects, skills, and a sprinkle of personality!
 
-**Website Link:**  
-[https://www.eki.my.id/](https://www.eki.my.id/)  
-
-We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
+![React](https://img.shields.io/badge/React-%2320232a?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Hosted_on-Vercel-black?style=for-the-badge&logo=vercel)
 
 ---
 
-# Tutorial: Running the Project  
+## ✨ Features
 
-Here’s a simple guide to run this project.  
-
-## Prerequisites  
-
-Ensure that you have already installed:  
-- **Node.js**  
-
----
-
-## Steps to Run the Project  
-
-1. **Download this project:**  
-
-   ```bash  
-   git clone https://github.com/EkiZR/Portofolio_V5.git  
-   ```  
-
-2. **Install all dependencies:**  
-
-   ```bash  
-   npm install  
-   ```  
-   Or use:  
-
-   ```bash  
-   npm install --legacy-peer-deps  
-   ```  
-
-3. **Run the project:**  
-
-   ```bash  
-   npm run dev  
-   ```  
-
-4. **Open in browser:**  
-
-   Access the application through the link displayed in your terminal.  
+- 🖥️ **Responsive Design** – Looks sharp on phones, tablets, and desktops.
+- 📁 **Projects Showcase** – Dive into my coding adventures.
+- 👨‍💻 **About Me Section** – Who am I? What do I do? It’s all here!
+- 💌 **Contact Form** – Let’s get in touch (sweetly alerted with SweetAlert)!
+- ⚡ **Fast & Smooth** – Thanks to React and TailwindCSS magic.
 
 ---
 
-## Creating a Production Build  
+## 🛠️ Tech Stack
 
-To create a production-ready build:  
-
-1. Run the build command:  
-
-   ```bash  
-   npm run build  
-   ```  
-
-2. The build files will be saved in the `dist` folder. You can upload this folder to your hosting server.  
+- **Frontend**: React.js, HTML5, CSS3, TailwindCSS
+- **UI Enhancements**: SweetAlert for clean alert modals
+- **Hosting**: Vercel (Because fast is fun!)
 
 ---
 
-## Notes  
+## 📸 Preview
 
-If you encounter issues while running the project, ensure that:  
-- Node.js is correctly installed.  
-- You’re in the correct project directory.  
-- All dependencies are installed without errors.  
+![Screenshot of the website](./assets/preview.png) <!-- Replace with your screenshot path -->
 
 ---
 
-## Firebase Configuration  
+## 🚀 Getting Started
 
-To configure Firebase for this project, follow these steps:  
+Wanna run it locally or make your own fork?
 
-1. **Add Firebase to the Project:**  
-   - Go to the [Firebase Console](https://console.firebase.google.com/).  
-   - Create a new project or use an existing one.  
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/arjunsabu.com.git
 
-2. **Enable Firestore Database:**  
-   - Create a database.  
+# Navigate into the folder
+cd arjunsabu.com
 
-3. **Go to Project Settings:**  
-   - Click the settings icon.  
-   - Copy the Firebase configuration.  
+# Install dependencies
+npm install
 
-4. **Go to Rules:**  
-   - Set the rules to `true`.  
-
-5. **Adjust the Collection Structure:**  
-   - Set up the collections as shown in the following images:  
-
-   ![Collection Structure Example 1](https://github.com/user-attachments/assets/38580122-08a4-4499-a8fd-0f253652a239)  
-   ![Collection Structure Example 2](https://github.com/user-attachments/assets/d563d7ad-f1ab-46ff-8185-640dcebd0363)  
-
-6. **Update `firebase.js` and `firebase-comment.js` Files:**  
-   - Replace the `firebaseConfig` content with your Firebase configuration.  
-
+# Run the development server
+npm run dev
