@@ -32,9 +32,9 @@ Crafted with ❤️ using modern web tech to showcase my projects, skills, and a
 ## 📸 Preview
 
 ![Screenshot of the website](./assets/Screenshot1.png)
-![](./assets/Screenshot2.png.png) 
-![](./assets/Screenshot3.png.png)
-![](./assets/Screenshot4.png.png)
+![](./assets/Screenshot2.png) 
+![](./assets/Screenshot3.png)
+![](./assets/Screenshot4.png)
 
 ## 🚀 Getting Started
 
