@@ -221,7 +221,7 @@ const Home = () => {
                 }`}>
                 </div>
 
-                <div className={`relative z-10 w-[600px] opacity-90 transform transition-transform duration-500 ${
+                <div className={`relative z-10 w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl opacity-90 transform transition-transform duration-500 ${
                   isHovering ? "scale-105" : "scale-100"
                 }`}>
                   <img 
