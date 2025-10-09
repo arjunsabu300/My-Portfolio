@@ -26,6 +26,12 @@ import wordpress from "../asset/wordpress.png";
 import internship1 from "../asset/Internship1.pdf";
 import Housecost from "../asset/predictcosthouse.jpeg";
 import Notedown from "../asset/notedownimg.jpeg";
+import cvcraft from "../asset/cvcraft.webp";
+import Adobe from "../asset/adobe.webp";
+import fullstack from "../asset/fullstack.webp";
+import nptel1 from "../asset/nptel1.webp";
+import PBL from "../asset/PBL.webp";
+import intership1 from "../asset/Internshipfullstack.webp"; 
 
 // Separate ShowMore/ShowLess button component
 const ToggleButton = ({ onClick, isShowingMore }) => (
@@ -152,10 +158,11 @@ export default function FullWidthTabs() {
   const loadProjects = () => {
     // Assuming project images are in /public/projects/ folder
     const projectList = [
-      { id: 1, name: "Notedown",title:"Notedown", description: "Student task manager", img: Notedown,link: "https://notedown-one.vercel.app/",Github: "https://github.com/arjunsabu300/Notedown/tree/main/Notedown_Project"},
-      { id: 2, name: "Tic Tac Toe",title:"Tic Tac Toe Game", description: "Tic Tac Toe Game", img: tictactoeimg,link: "https://tick-tack-toe-nu.vercel.app/",Github: "https://github.com/arjunsabu300/Tick-Tack-Toe.git"},
-      { id: 3, name: "Cab Booking System",title:"Cab Booking System", description: "Cab Booking System model", img: cabimg,link: "https://cab-booking-system-7c5e.onrender.com/",Github: "https://github.com/arjunsabu300/Cab-Booking-System"},
-      { id: 4, name: "House Cost Predictor",title:"House Cost Predictor", description: "House cost prediction using ML", img: Housecost,link: "https://house-price-predictor-rho.vercel.app/",Github: "https://github.com/arjunsabu300/House-Price-Predictor"},
+      { id: 1, name: "CvCraft",title:"CvCraft", description: "Resume Analyzer and Builder", img: cvcraft,link: "https://cv-craft-henna.vercel.app/",Github: "https://github.com/arjunsabu300/CvCraft"},
+      { id: 2, name: "Notedown",title:"Notedown", description: "Student task manager", img: Notedown,link: "https://notedown-one.vercel.app/",Github: "https://github.com/arjunsabu300/Notedown/tree/main/Notedown_Project"},
+      { id: 3, name: "Tic Tac Toe",title:"Tic Tac Toe Game", description: "Tic Tac Toe Game", img: tictactoeimg,link: "https://tick-tack-toe-nu.vercel.app/",Github: "https://github.com/arjunsabu300/Tick-Tack-Toe.git"},
+      { id: 4, name: "Cab Booking System",title:"Cab Booking System", description: "Cab Booking System model", img: cabimg,link: "https://cab-booking-system-7c5e.onrender.com/",Github: "https://github.com/arjunsabu300/Cab-Booking-System"},
+      { id: 5, name: "House Cost Predictor",title:"House Cost Predictor", description: "House cost prediction using ML", img: Housecost,link: "https://house-price-predictor-rho.vercel.app/",Github: "https://github.com/arjunsabu300/House-Price-Predictor"},
       // { id: 3, name: "Project 3", description: "Description 3", img: "/projects/proj3.jpg" },
       // Add more projects here
     ];
@@ -166,14 +173,19 @@ export default function FullWidthTabs() {
   const loadCertificates = () => {
     // Assuming certificates are in /public/certificates/ folder
     const certificateList = [
-      { name: "Certificate 1", img: flipkartc },
-      { name: "Certificate 2", img: ieee },
-      { name: "Certificate 3", img: ev },
-      { name: "Certificate 4", img: cbs },
-      { name: "Certificate 5", img: vr },
-      { name: "Certificate 6", img: yip },
-      { name: "Certificate 7", img: wordpress },
-      { name: "Certificate 8", img: internship1 }
+      { name: "Certificate 1", img: nptel1 },
+      { name: "Certificate 2", img: fullstack },
+      { name: "Certificate 3", img: intership1 },
+      { name: "Certificate 4", img: PBL },
+      { name: "Certificate 5", img: Adobe },
+      { name: "Certificate 6", img: flipkartc },
+      { name: "Certificate 7", img: ieee },
+      { name: "Certificate 8", img: ev },
+      { name: "Certificate 9", img: cbs },
+      { name: "Certificate 10", img: vr },
+      { name: "Certificate 11", img: yip },
+      { name: "Certificate 12", img: wordpress },
+      { name: "Certificate 13", img: internship1 }
 
 
       // Add more certificates here

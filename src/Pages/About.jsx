@@ -2,7 +2,7 @@ import React, { useEffect, memo, useMemo } from "react"
 import { FileText, Code, Award, Globe, ArrowUpRight, Sparkles, UserCheck } from "lucide-react"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import profileimage from "../asset/profilepic.png";
+import profileimage from "../asset/profilepic.webp";
 
 // Memoized Components
 const Header = memo(() => (
@@ -225,7 +225,7 @@ Beyond coding, I enjoy experimenting with new tech, watching anime, and brainsto
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="https://drive.google.com/file/d/14zLoc_XO31eHhVJo-zdMDnrbhy7Q-fWR/view?usp=drive_link" className="w-full lg:w-auto">
+              <a href="https://drive.google.com/file/d/1OCSr0A3FCMkCE1C4NKYOrxInO_q68NmH/view?usp=sharing" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
                 data-aos-duration="800"
